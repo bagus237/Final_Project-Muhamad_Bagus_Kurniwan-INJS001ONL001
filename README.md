@@ -5,8 +5,11 @@ Tugas ini saya buat untuk memenuhi persyaratan untuk lulus dan mendapatkan serti
 - JavaScript (ES6)
 - [NodeJs](https://nodejs.org)
 - [Express](http://expressjs.com/)
+- [Jest](https://jestjs.io/)
 - [Postgresql](https://www.postgresql.org/)
 - [PG](https://node-postgres.com/)
+- [ElephantSQL](https://www.elephantsql.com/)
+- [Travis-CLI](https://www.travis-ci.com/)
 
 ## How To Use
 - POST /api/v1/user (Untuk melakukan register/membuat user)
