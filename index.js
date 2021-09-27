@@ -8,7 +8,7 @@ const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 const cors = require('cors')
 
-const port = 5000
+
 
 app.use(express.json({
     limit: "50mb"
@@ -216,8 +216,8 @@ app.get('/api/v1/users', auth, async(req, res) => {
 
 */
 
-app.listen(port, () => {
-    console.log(`server is up and running at port ${port}`)
+app.listen(process.env.PORT, () => {
+    console.log("Listening on PORT "+ process.env.PORT);
 })
 
 
