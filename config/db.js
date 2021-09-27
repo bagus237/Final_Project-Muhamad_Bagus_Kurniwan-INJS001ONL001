@@ -11,9 +11,14 @@ require('dotenv').config()
 */
 
 const pool = new Pool({
-    connectionString: process.env.DATABASE_URL
+    connectionString: process.env.DATABASE_URL,
+    options : {
+      rowCollectionOnRequestCompletion : true   // add this line
+  }
+    
   });
   
+
 console.log('connect to database')
 
 module.exports = pool
