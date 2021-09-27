@@ -14,10 +14,10 @@ if (process.env.NODE_ENV === "production") {
     })
 }else{
     pool = new Client({
-        database: "db_profile",
+        database: "db_latihan",
         host: "localhost",
         user: "postgres",
-        password: "root",
+        password: "Tengil48!",
         port : 5432
     })
 }
@@ -25,25 +25,3 @@ if (process.env.NODE_ENV === "production") {
 pool.connect()
 module.exports = pool
 
-/*const pool = new Pool({
-    user: 'postgres',
-    host: 'localhost',
-    database: 'db_latihan',
-    password: 'Tengil48!',
-    port: 5432
-})
-
-
-const pool = new Pool({
-    connectionString: process.env.DATABASE_URL,
-    options : {
-      rowCollectionOnRequestCompletion : true   // add this line
-  }
-    
-  });
-  
-
-console.log('connect to database')
-
-module.exports = pool
-*/
