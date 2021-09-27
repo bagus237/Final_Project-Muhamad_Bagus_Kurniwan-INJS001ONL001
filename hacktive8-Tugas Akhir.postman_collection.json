@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "Sesi 13 - assesment 2",
+			"name": "Sesi 16- final akhir",
 			"item": [
 				{
 					"name": "register",
@@ -15,7 +15,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"firstName\":\"budi\",    \r\n    \"lastName\":\"doremi\",\r\n    \"email\":\"budidoremi123@gmail.com\",\r\n    \"password\":\"budiono123\"\r\n    \r\n}",
+							"raw": "{\r\n    \"firstName\":\"bagus\",    \r\n    \"lastName\":\"kurniawan\",\r\n    \"email\":\"bagus237@gmail.com\",\r\n    \"password\":\"bagus123\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -23,11 +23,13 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:5000/api/v1/user",
+							"raw": "https://bagus-final-project-nodejs.herokuapp.com/api/v1/user",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"bagus-final-project-nodejs",
+								"herokuapp",
+								"com"
 							],
-							"port": "5000",
 							"path": [
 								"api",
 								"v1",
@@ -43,7 +45,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"firstName\":\"budi\",    \r\n    \"lastName\":\"doremi\",\r\n    \"email\":\"budidoremi123@gmail.com\",\r\n    \"password\":\"budiono123\"\r\n    \r\n}",
+									"raw": "{\r\n    \"firstName\":\"bagus\",    \r\n    \"lastName\":\"kurniawan\",\r\n    \"email\":\"bagus237@gmail.com\",\r\n    \"password\":\"bagus123\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -51,11 +53,13 @@
 									}
 								},
 								"url": {
-									"raw": "localhost:5000/api/v1/user",
+									"raw": "https://bagus-final-project-nodejs.herokuapp.com/api/v1/user",
+									"protocol": "https",
 									"host": [
-										"localhost"
+										"bagus-final-project-nodejs",
+										"herokuapp",
+										"com"
 									],
-									"port": "5000",
 									"path": [
 										"api",
 										"v1",
@@ -67,6 +71,14 @@
 							"code": 200,
 							"_postman_previewlanguage": "json",
 							"header": [
+								{
+									"key": "Server",
+									"value": "Cowboy"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
 								{
 									"key": "X-Powered-By",
 									"value": "Express"
@@ -80,20 +92,16 @@
 									"value": "35"
 								},
 								{
-									"key": "ETag",
+									"key": "Etag",
 									"value": "W/\"23-Zw29h3HPYwAh6Ef5vkZkPzcXOKs\""
 								},
 								{
 									"key": "Date",
-									"value": "Thu, 23 Sep 2021 04:10:32 GMT"
+									"value": "Mon, 27 Sep 2021 13:44:37 GMT"
 								},
 								{
-									"key": "Connection",
-									"value": "keep-alive"
-								},
-								{
-									"key": "Keep-Alive",
-									"value": "timeout=5"
+									"key": "Via",
+									"value": "1.1 vegur"
 								}
 							],
 							"cookie": [],
@@ -108,13 +116,13 @@
 						"header": [
 							{
 								"key": "x-access-token",
-								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJidWRpZG9yZW1pMTIzQGdtYWlsLmNvbSIsImlhdCI6MTYzMjM3NDc0NCwiZXhwIjoxNjMyMzc4MzQ0fQ.ZhkjxpTMdYOWQmW8nXy3liMia-bDMEhn8nOU1i4IDWc",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJiYWd1czIzN0BnbWFpbC5jb20iLCJpYXQiOjE2MzI3NTAzMzgsImV4cCI6MTYzMjc1MzkzOH0.J9sbcOvbWM81EG2f2RuNOInQ5j3o_sRoLowcCoibh0I",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"firstName\": \"budi yono\",\r\n    \"lastName\": \"wong\",\r\n    \"email\": \"budidoremi123@gmail.com\"\r\n}",
+							"raw": "{\r\n    \"firstName\": \"bagus\",\r\n    \"lastName\": \"kaguya\",\r\n    \"email\": \"bagus237@gmail.com\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -122,33 +130,36 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:5000/api/v1/update",
+							"raw": "https://bagus-final-project-nodejs.herokuapp.com/api/v1/users/me",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"bagus-final-project-nodejs",
+								"herokuapp",
+								"com"
 							],
-							"port": "5000",
 							"path": [
 								"api",
 								"v1",
-								"update"
+								"users",
+								"me"
 							]
 						}
 					},
 					"response": [
 						{
-							"name": "update data",
+							"name": "Update data",
 							"originalRequest": {
 								"method": "PUT",
 								"header": [
 									{
 										"key": "x-access-token",
-										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJidWRpZG9yZW1pMTIzQGdtYWlsLmNvbSIsImlhdCI6MTYzMjM3NDc0NCwiZXhwIjoxNjMyMzc4MzQ0fQ.ZhkjxpTMdYOWQmW8nXy3liMia-bDMEhn8nOU1i4IDWc",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJiYWd1czIzN0BnbWFpbC5jb20iLCJpYXQiOjE2MzI3NTAzMzgsImV4cCI6MTYzMjc1MzkzOH0.J9sbcOvbWM81EG2f2RuNOInQ5j3o_sRoLowcCoibh0I",
 										"type": "text"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"firstName\": \"budi yono\",\r\n    \"lastName\": \"wong\",\r\n    \"email\": \"budidoremi123@gmail.com\"\r\n}",
+									"raw": "{\r\n    \"firstName\": \"bagus\",\r\n    \"lastName\": \"kaguya\",\r\n    \"email\": \"bagus237@gmail.com\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -156,15 +167,18 @@
 									}
 								},
 								"url": {
-									"raw": "localhost:5000/api/v1/update",
+									"raw": "https://bagus-final-project-nodejs.herokuapp.com/api/v1/users/me",
+									"protocol": "https",
 									"host": [
-										"localhost"
+										"bagus-final-project-nodejs",
+										"herokuapp",
+										"com"
 									],
-									"port": "5000",
 									"path": [
 										"api",
 										"v1",
-										"update"
+										"users",
+										"me"
 									]
 								}
 							},
@@ -172,6 +186,14 @@
 							"code": 200,
 							"_postman_previewlanguage": "json",
 							"header": [
+								{
+									"key": "Server",
+									"value": "Cowboy"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
 								{
 									"key": "X-Powered-By",
 									"value": "Express"
@@ -185,20 +207,16 @@
 									"value": "42"
 								},
 								{
-									"key": "ETag",
+									"key": "Etag",
 									"value": "W/\"2a-26UOLcmf9Ed/T8Lmh7D9g95anrc\""
 								},
 								{
 									"key": "Date",
-									"value": "Thu, 23 Sep 2021 05:33:51 GMT"
+									"value": "Mon, 27 Sep 2021 13:46:32 GMT"
 								},
 								{
-									"key": "Connection",
-									"value": "keep-alive"
-								},
-								{
-									"key": "Keep-Alive",
-									"value": "timeout=5"
+									"key": "Via",
+									"value": "1.1 vegur"
 								}
 							],
 							"cookie": [],
@@ -213,7 +231,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\":\"budidoremi123@gmail.com\",\r\n    \"password\":\"budiono12\"\r\n}",
+							"raw": "{\r\n    \"email\":\"bagus237@gmail.com\",\r\n    \"password\":\"bagus123\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -221,11 +239,13 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:5000/api/v1/users/login",
+							"raw": "https://bagus-final-project-nodejs.herokuapp.com/api/v1/users/login",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"bagus-final-project-nodejs",
+								"herokuapp",
+								"com"
 							],
-							"port": "5000",
 							"path": [
 								"api",
 								"v1",
@@ -242,7 +262,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"email\":\"budidoremi123@gmail.com\",\r\n    \"password\":\"budiono123\"\r\n}",
+									"raw": "{\r\n    \"email\":\"bagus237@gmail.com\",\r\n    \"password\":\"bagus123\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -250,11 +270,13 @@
 									}
 								},
 								"url": {
-									"raw": "localhost:5000/api/v1/users/login",
+									"raw": "https://bagus-final-project-nodejs.herokuapp.com/api/v1/users/login",
+									"protocol": "https",
 									"host": [
-										"localhost"
+										"bagus-final-project-nodejs",
+										"herokuapp",
+										"com"
 									],
-									"port": "5000",
 									"path": [
 										"api",
 										"v1",
@@ -268,6 +290,14 @@
 							"_postman_previewlanguage": "json",
 							"header": [
 								{
+									"key": "Server",
+									"value": "Cowboy"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
 									"key": "X-Powered-By",
 									"value": "Express"
 								},
@@ -277,27 +307,23 @@
 								},
 								{
 									"key": "Content-Length",
-									"value": "334"
+									"value": "343"
 								},
 								{
-									"key": "ETag",
-									"value": "W/\"14e-T/QfJCr+Gq67qq1mfVGw3TGlGgU\""
+									"key": "Etag",
+									"value": "W/\"157-zdT7TavoKPmbqZcGUACNXIy/330\""
 								},
 								{
 									"key": "Date",
-									"value": "Thu, 23 Sep 2021 04:20:41 GMT"
+									"value": "Mon, 27 Sep 2021 13:45:38 GMT"
 								},
 								{
-									"key": "Connection",
-									"value": "keep-alive"
-								},
-								{
-									"key": "Keep-Alive",
-									"value": "timeout=5"
+									"key": "Via",
+									"value": "1.1 vegur"
 								}
 							],
 							"cookie": [],
-							"body": "{\n    \"first_name\": \"budi\",\n    \"last_name\": \"doremi\",\n    \"email\": \"budidoremi123@gmail.com\",\n    \"password\": \"$2b$10$kZ5r5hMAXnI7kIphGOX4IeEKnMOp1LnHYKYmYgrHqpEwFWMP5v6lW\",\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJ1ZGlkb3JlbWkxMjNAZ21haWwuY29tIiwiaWF0IjoxNjMyMzcwODQxLCJleHAiOjE2MzIzNzQ0NDF9.21DM3nnLNi9QVJaBs3yyhOmoCsojo83_LAEkX8UXdyY\"\n}"
+							"body": "{\n    \"id\": 2,\n    \"first_name\": \"bagus\",\n    \"last_name\": \"kurniawan\",\n    \"email\": \"bagus237@gmail.com\",\n    \"password\": \"$2b$10$ZVLT1mmbtuB21qVa/sjGMuaakGBqoeXcY3hq2WAoRp8D60aEgW8CC\",\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJiYWd1czIzN0BnbWFpbC5jb20iLCJpYXQiOjE2MzI3NTAzMzgsImV4cCI6MTYzMjc1MzkzOH0.J9sbcOvbWM81EG2f2RuNOInQ5j3o_sRoLowcCoibh0I\"\n}"
 						}
 					]
 				},
@@ -308,16 +334,18 @@
 						"header": [
 							{
 								"key": "x-access-token",
-								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJidWRpZG9yZW1pMTIzQGdtYWlsLmNvbSIsImlhdCI6MTYzMjY2NjUwMiwiZXhwIjoxNjMyNjcwMTAyfQ.6ALvaIdQ4XTsN_1aMvKBb3rYb1v0r-fpOXFY2XdSFP4",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJiYWd1czIzN0BnbWFpbC5jb20iLCJpYXQiOjE2MzI3NTAzMzgsImV4cCI6MTYzMjc1MzkzOH0.J9sbcOvbWM81EG2f2RuNOInQ5j3o_sRoLowcCoibh0I",
 								"type": "text"
 							}
 						],
 						"url": {
-							"raw": "localhost:5000/api/v1/users",
+							"raw": "https://bagus-final-project-nodejs.herokuapp.com/api/v1/users",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"bagus-final-project-nodejs",
+								"herokuapp",
+								"com"
 							],
-							"port": "5000",
 							"path": [
 								"api",
 								"v1",
@@ -333,16 +361,18 @@
 								"header": [
 									{
 										"key": "x-access-token",
-										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJidWRpZG9yZW1pMTIzQGdtYWlsLmNvbSIsImlhdCI6MTYzMjY2NjUwMiwiZXhwIjoxNjMyNjcwMTAyfQ.6ALvaIdQ4XTsN_1aMvKBb3rYb1v0r-fpOXFY2XdSFP4",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJiYWd1czIzN0BnbWFpbC5jb20iLCJpYXQiOjE2MzI3NTAzMzgsImV4cCI6MTYzMjc1MzkzOH0.J9sbcOvbWM81EG2f2RuNOInQ5j3o_sRoLowcCoibh0I",
 										"type": "text"
 									}
 								],
 								"url": {
-									"raw": "localhost:5000/api/v1/users",
+									"raw": "https://bagus-final-project-nodejs.herokuapp.com/api/v1/users",
+									"protocol": "https",
 									"host": [
-										"localhost"
+										"bagus-final-project-nodejs",
+										"herokuapp",
+										"com"
 									],
-									"port": "5000",
 									"path": [
 										"api",
 										"v1",
@@ -355,6 +385,14 @@
 							"_postman_previewlanguage": "json",
 							"header": [
 								{
+									"key": "Server",
+									"value": "Cowboy"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
 									"key": "X-Powered-By",
 									"value": "Express"
 								},
@@ -364,27 +402,23 @@
 								},
 								{
 									"key": "Content-Length",
-									"value": "161"
+									"value": "145"
 								},
 								{
-									"key": "ETag",
-									"value": "W/\"a1-LSObVaPWoy9+N9AiwH3mQrc1oIg\""
+									"key": "Etag",
+									"value": "W/\"91-GrLqPj47CF1lLnIhASCLatQBiUQ\""
 								},
 								{
 									"key": "Date",
-									"value": "Sun, 26 Sep 2021 14:29:05 GMT"
+									"value": "Mon, 27 Sep 2021 13:46:55 GMT"
 								},
 								{
-									"key": "Connection",
-									"value": "keep-alive"
-								},
-								{
-									"key": "Keep-Alive",
-									"value": "timeout=5"
+									"key": "Via",
+									"value": "1.1 vegur"
 								}
 							],
 							"cookie": [],
-							"body": "[\n    {\n        \"first_name\": \"beatrix\",\n        \"last_name\": \"latifa\",\n        \"email\": \"beatrixcantik@gmail.com\"\n    },\n    {\n        \"first_name\": \"budi yono\",\n        \"last_name\": \"wong\",\n        \"email\": \"budidoremi123@gmail.com\"\n    }\n]"
+							"body": "[\n    {\n        \"first_name\": \"roger\",\n        \"last_name\": \"figther\",\n        \"email\": \"roger@gmail.com\"\n    },\n    {\n        \"first_name\": \"bagus\",\n        \"last_name\": \"kaguya\",\n        \"email\": \"bagus237@gmail.com\"\n    }\n]"
 						}
 					]
 				},
@@ -395,16 +429,18 @@
 						"header": [
 							{
 								"key": "x-access-token",
-								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJidWRpZG9yZW1pMTIzQGdtYWlsLmNvbSIsImlhdCI6MTYzMjY2NjUwMiwiZXhwIjoxNjMyNjcwMTAyfQ.6ALvaIdQ4XTsN_1aMvKBb3rYb1v0r-fpOXFY2XdSFP4",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJiYWd1czIzN0BnbWFpbC5jb20iLCJpYXQiOjE2MzI3NTAzMzgsImV4cCI6MTYzMjc1MzkzOH0.J9sbcOvbWM81EG2f2RuNOInQ5j3o_sRoLowcCoibh0I",
 								"type": "text"
 							}
 						],
 						"url": {
-							"raw": "localhost:5000/api/v1/users/me",
+							"raw": "https://bagus-final-project-nodejs.herokuapp.com/api/v1/users/me",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"bagus-final-project-nodejs",
+								"herokuapp",
+								"com"
 							],
-							"port": "5000",
 							"path": [
 								"api",
 								"v1",
@@ -421,16 +457,18 @@
 								"header": [
 									{
 										"key": "x-access-token",
-										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJidWRpZG9yZW1pMTIzQGdtYWlsLmNvbSIsImlhdCI6MTYzMjY2NjUwMiwiZXhwIjoxNjMyNjcwMTAyfQ.6ALvaIdQ4XTsN_1aMvKBb3rYb1v0r-fpOXFY2XdSFP4",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJiYWd1czIzN0BnbWFpbC5jb20iLCJpYXQiOjE2MzI3NTAzMzgsImV4cCI6MTYzMjc1MzkzOH0.J9sbcOvbWM81EG2f2RuNOInQ5j3o_sRoLowcCoibh0I",
 										"type": "text"
 									}
 								],
 								"url": {
-									"raw": "localhost:5000/api/v1/users/me",
+									"raw": "https://bagus-final-project-nodejs.herokuapp.com/api/v1/users/me",
+									"protocol": "https",
 									"host": [
-										"localhost"
+										"bagus-final-project-nodejs",
+										"herokuapp",
+										"com"
 									],
-									"port": "5000",
 									"path": [
 										"api",
 										"v1",
@@ -444,6 +482,14 @@
 							"_postman_previewlanguage": "json",
 							"header": [
 								{
+									"key": "Server",
+									"value": "Cowboy"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
 									"key": "X-Powered-By",
 									"value": "Express"
 								},
@@ -453,27 +499,23 @@
 								},
 								{
 									"key": "Content-Length",
-									"value": "81"
+									"value": "74"
 								},
 								{
-									"key": "ETag",
-									"value": "W/\"51-m2B1+vQ1Gp1ZADkQjMqYMVd86lg\""
+									"key": "Etag",
+									"value": "W/\"4a-vvqmawsP2bp5AQZXs0KVJUzcXLc\""
 								},
 								{
 									"key": "Date",
-									"value": "Sun, 26 Sep 2021 14:28:45 GMT"
+									"value": "Mon, 27 Sep 2021 13:47:37 GMT"
 								},
 								{
-									"key": "Connection",
-									"value": "keep-alive"
-								},
-								{
-									"key": "Keep-Alive",
-									"value": "timeout=5"
+									"key": "Via",
+									"value": "1.1 vegur"
 								}
 							],
 							"cookie": [],
-							"body": "[\n    {\n        \"first_name\": \"budi yono\",\n        \"last_name\": \"wong\",\n        \"email\": \"budidoremi123@gmail.com\"\n    }\n]"
+							"body": "[\n    {\n        \"first_name\": \"bagus\",\n        \"last_name\": \"kaguya\",\n        \"email\": \"bagus237@gmail.com\"\n    }\n]"
 						}
 					]
 				}

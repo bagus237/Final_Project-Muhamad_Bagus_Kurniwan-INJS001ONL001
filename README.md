@@ -1,3 +1,4 @@
+# Sudah di revisi silahkan dicoba lagi
 # Final Project
 Tugas ini saya buat untuk memenuhi persyaratan untuk lulus dan mendapatkan sertifikat Intro node js dari Hacktiv8. mohon maaf bila ada kekurangan. Saya ucapkan terimakasih.
 
@@ -8,7 +9,7 @@ Tugas ini saya buat untuk memenuhi persyaratan untuk lulus dan mendapatkan serti
 - [Jest](https://jestjs.io/)
 - [Postgresql](https://www.postgresql.org/)
 - [PG](https://node-postgres.com/)
-- [ElephantSQL](https://www.elephantsql.com/)
+- [Heroku](https://heroku.com/)
 - [Travis-CLI](https://www.travis-ci.com/)
 
 ## How To Use
