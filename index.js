@@ -39,10 +39,9 @@ app.post('/api/v1/user', async(req, res) => {
                 })
             }
 
-            var isExist = result.rowCount
-            console.log(isExist, '<<<<')
+
             
-            if(isExist == 1) {
+            if(result.rowCount === 1) {
                 res.status(400).json({
                     status: false,
                     message: 'User already registered'
