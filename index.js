@@ -153,7 +153,7 @@ app.post('/api/v1/users/login', async(req,res) => {
     }
 })
 
-app.put('/api/v1/update', auth, async(req, res) => {
+app.put('/api/v1/users/me', auth, async(req, res) => {
     try{
         const {firstName, lastName, email} = req.body
         const token = req.headers['x-access-token'] 
