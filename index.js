@@ -17,7 +17,7 @@ app.use(express.json({
 app.get('/', (req, res) => {
     return res.status(200).send({'message': 'Selamat datang di program saya mohon maaf atas kekurangannya :D'});
   });
-/*
+
 app.post('/api/v1/user', async(req, res) => {
     try{
         const {firstName, lastName, email, password} = req.body
@@ -214,7 +214,7 @@ app.get('/api/v1/users', auth, async(req, res) => {
 })
 
 
-*/
+
 
 app.listen(process.env.PORT, () => {
     console.log("Listening on PORT "+ process.env.PORT);
