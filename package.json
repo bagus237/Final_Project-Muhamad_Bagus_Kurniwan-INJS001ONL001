@@ -4,11 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "test": "jest --forceExit --detectOpenHandles",
-    "test:watch": "jest --watchAll",
-    "test:coverage": "npm test -- --coverage"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "bagus",
@@ -27,3 +23,4 @@
     "jest": "^27.2.1"
   }
 }
+
